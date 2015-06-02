@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#c7e6f8" 
+    >
+
+    <TextView
+        android:id="@+id/Notification_count"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Notification"
+       	android:layout_marginTop="10dp"
+       android:paddingTop="20dp"
+       android:paddingLeft="10dp"
+        android:background="@drawable/gradient"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/listSearch1"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="10dp"
+          android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/list_selector" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7e6f8"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Sign Up"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffff" />
+
+    <EditText
+        android:id="@+id/xmlName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffff" />
+
+    <EditText
+        android:id="@+id/xmlUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:paddingTop="20dp"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffff" />
+
+    <EditText
+        android:id="@+id/xmlEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffff" />
+
+    <EditText
+        android:id="@+id/xmlPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingBottom="15dp"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    
+    
+        <Button android:id="@+id/button1" style="@style/DefaultButtonText" 
+                 android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_margin="4dp" android:background="@drawable/signup" 
+                  android:onClick="doSignUp" android:padding="10dp" android:text="Sign Up" android:textColor="#fff"/>
+
+</LinearLayout>

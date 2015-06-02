@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notifications" 
+    android:background="#c7e6f8">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/notification_textview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+       	android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="dadsadadads"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="News Feeds"
+        	android:paddingLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/list_selector"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/Notificatoin_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No News Feed"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+</FrameLayout>

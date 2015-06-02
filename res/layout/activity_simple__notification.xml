@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7e6f8"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Simple_Notification" >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/show_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button android:id="@+id/ok_button" 
+        style="@style/DefaultButtonText"
+         android:layout_width="match_parent" 
+         
+         android:layout_height="wrap_content" 
+         
+         android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true" 
+          android:onClick="OK" android:layout_marginBottom="24dp" 
+          android:text="Ok"
+          android:background="@drawable/signin" />
+    <Button
+        android:id="@+id/cancel_button"
+       style="@style/DefaultButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:onClick="Cancel"
+        android:text="Cancel"
+        android:background="@drawable/signup" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7e6f8"
+    tools:context=".Messages" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:id="@+id/friendsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="130dp"
+          android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/list_selector"
+       
+        >
+    </ListView>
+
+    <TextView
+        android:id="@+id/friend_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No Friend list"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+    
+        android:text="My Contacts"
+      	android:gravity="center"
+        android:layout_marginTop="10dp"
+       android:background="@drawable/gradient"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"      
+          android:text="tap on a Friend name to interact"
+           android:layout_marginLeft="20dp"
+       
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</FrameLayout>

@@ -1,0 +1,121 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=3028, tid=5140
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_51-b13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.51-b03 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000023d0800):  JavaThread "Unknown thread" [_thread_in_vm, id=5140, stack(0x00000000022d0000,0x00000000023d0000)]
+
+Stack: [0x00000000022d0000,0x00000000023d0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000023d0800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5140, stack(0x00000000022d0000,0x00000000023d0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 2.093 loading class 0x0000000002415700 done
+Event: 2.093 loading class 0x0000000002415120 done
+Event: 2.093 loading class 0x0000000002415100
+Event: 2.193 loading class 0x000000000241d200
+Event: 2.193 loading class 0x000000000241d200 done
+Event: 2.193 loading class 0x000000000241d230
+Event: 2.193 loading class 0x000000000241d230 done
+Event: 2.193 loading class 0x000000000241d260
+Event: 2.194 loading class 0x000000000241d260 done
+Event: 2.194 loading class 0x0000000002415100 done
+
+
+Dynamic libraries:
+0x00007ff75fc80000 - 0x00007ff75fcb3000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x00007ffee7d10000 - 0x00007ffee7ebc000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffee5460000 - 0x00007ffee559a000 	C:\Windows\system32\KERNEL32.DLL
+0x00007ffee5070000 - 0x00007ffee517f000 	C:\Windows\system32\KERNELBASE.dll
+0x00007ffee3b60000 - 0x00007ffee3bee000 	C:\Windows\system32\apphelp.dll
+0x00007ffed67f0000 - 0x00007ffed6843000 	C:\Windows\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ffee5720000 - 0x00007ffee57c7000 	C:\Windows\system32\msvcrt.dll
+0x00007ffee4d90000 - 0x00007ffee4dbb000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x00007ffee7b60000 - 0x00007ffee7bb1000 	C:\Windows\system32\SHLWAPI.dll
+0x00007ffee7750000 - 0x00007ffee78c1000 	C:\Windows\system32\USER32.dll
+0x00007ffee5bb0000 - 0x00007ffee5d28000 	C:\Windows\system32\ole32.dll
+0x00007ffee6050000 - 0x00007ffee7568000 	C:\Windows\system32\SHELL32.dll
+0x00007ffee43f0000 - 0x00007ffee440e000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007ffee5e40000 - 0x00007ffee5ee5000 	C:\Windows\system32\ADVAPI32.dll
+0x00007ffedae30000 - 0x00007ffedae4b000 	C:\Windows\SYSTEM32\MPR.dll
+0x00007ffee5f10000 - 0x00007ffee6047000 	C:\Windows\system32\RPCRT4.dll
+0x00007ffee56c0000 - 0x00007ffee5719000 	C:\Windows\SYSTEM32\sechost.dll
+0x00007ffee7570000 - 0x00007ffee7746000 	C:\Windows\SYSTEM32\combase.dll
+0x00007ffee7bc0000 - 0x00007ffee7d04000 	C:\Windows\system32\GDI32.dll
+0x00007ffee4f50000 - 0x00007ffee4f64000 	C:\Windows\SYSTEM32\profapi.dll
+0x00007ffee1c40000 - 0x00007ffee1cf2000 	C:\Windows\SYSTEM32\SHCORE.dll
+0x00007ffee5d30000 - 0x00007ffee5d64000 	C:\Windows\system32\IMM32.DLL
+0x00007ffee7a00000 - 0x00007ffee7b52000 	C:\Windows\system32\MSCTF.dll
+0x00007ffedfc10000 - 0x00007ffedfe8b000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17784_none_624760d1ecb7236e\COMCTL32.dll
+0x0000000054430000 - 0x0000000054502000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x0000000053c60000 - 0x0000000054429000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x00007ffee32a0000 - 0x00007ffee32a9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffeda9c0000 - 0x00007ffeda9df000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffee79f0000 - 0x00007ffee79f7000 	C:\Windows\system32\PSAPI.DLL
+0x00007ffee7990000 - 0x00007ffee79e8000 	C:\Windows\system32\WS2_32.dll
+0x00007ffeda240000 - 0x00007ffeda26a000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ffee7980000 - 0x00007ffee7989000 	C:\Windows\system32\NSI.dll
+0x00007ffee5020000 - 0x00007ffee506a000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x00007ffee3db0000 - 0x00007ffee3dd6000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x0000000053c50000 - 0x0000000053c5f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x0000000053c20000 - 0x0000000053c48000 	C:\Program Files\Java\jre7\bin\java.dll
+0x0000000053910000 - 0x0000000053945000 	C:\Program Files\Java\jre7\bin\jdwp.dll
+0x0000000053900000 - 0x0000000053908000 	C:\Program Files\Java\jre7\bin\npt.dll
+0x0000000053c00000 - 0x0000000053c15000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:58731 -Dfile.encoding=Cp1252 -Xbootclasspath:D:\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-19\android.jar 
+java_command: org.kobjects.crypt.Crypt
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2008a\bin;C:\Program Files\MATLAB\R2008a\bin\win64;C:\android\adt\sdk\platforms;C:\android\adt\sdk\platform-tools;C:\android\adt\eclipse\jre\bin;C:\Program Files (x86)\Skype\Phone\
+USERNAME=Abbasi
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, erms, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 4080920k(637964k free), swap 6964504k(2345132k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.51-b03) for windows-amd64 JRE (1.7.0_51-b13), built on Dec 18 2013 18:40:56 by "java_re" with unknown MS VC++:1600
+
+time: Tue Jun 02 21:40:15 2015
+elapsed time: 2 seconds
+
